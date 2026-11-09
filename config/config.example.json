@@ -1,0 +1,95 @@
+{
+  "user_name": "Ana",
+  "assistant_name": "Nova",
+  "institution": "la universidad",
+  "career": "Ingeniería",
+  "timezone_label": "Chile",
+  "persona": "Eres una asistente personal cercana, directa y práctica. Respondes en español de Chile, con mensajes cortos tipo chat, sin lenguaje corporativo.",
+  "emails": {
+    "institutional": "ana@alumnos.universidad.cl",
+    "personal": "ana@example.com"
+  },
+  "mail_accounts": {
+    "institutional": "Exchange",
+    "personal": "Google"
+  },
+  "moodle_url": "https://lms.universidad.cl",
+  "daily_reminders": [
+    {
+      "key": "pausa_activa",
+      "time": "10:30",
+      "weekdays_only": true,
+      "message": "Pausa activa: 5 minutos de estiramiento."
+    },
+    {
+      "key": "almuerzo",
+      "time": "14:00",
+      "weekdays_only": false,
+      "message": "Hora de almorzar."
+    },
+    {
+      "key": "ejercicio",
+      "time": "22:15",
+      "weekdays_only": false,
+      "message": "Rutina corta de ejercicio antes de dormir."
+    }
+  ],
+  "schedule": [
+    {
+      "time": "08:30 - 10:00",
+      "title": "Rutina de mañana",
+      "detail": "Desayuno y revisión de la agenda."
+    },
+    {
+      "time": "10:00 - 13:00",
+      "title": "Bloque de estudio",
+      "detail": "Tarea más próxima de la semana."
+    },
+    {
+      "time": "14:00 - 15:00",
+      "title": "Almuerzo y pausa",
+      "detail": "Sin pantallas."
+    },
+    {
+      "time": "19:00 - 21:30",
+      "title": "Clases",
+      "detail": "Presenciales."
+    },
+    {
+      "time": "22:15 - 22:45",
+      "title": "Entrenamiento",
+      "detail": "Rutina corta en casa."
+    }
+  ],
+  "workout": [
+    {
+      "name": "Sentadilla goblet",
+      "sets": "4 x 10",
+      "notes": "Torso erguido, talones en el suelo."
+    },
+    {
+      "name": "Peso muerto rumano",
+      "sets": "4 x 10",
+      "notes": "Bisagra de cadera."
+    },
+    {
+      "name": "Flexiones",
+      "sets": "3 x 12",
+      "notes": "Codos a 45°."
+    },
+    {
+      "name": "Plancha",
+      "sets": "3 x 40 s",
+      "notes": "Abdomen activo."
+    }
+  ],
+  "courses": [
+    {
+      "code": "MAT101",
+      "name": "Cálculo I",
+      "folder": "MAT101_Calculo_I",
+      "url": "https://lms.universidad.cl/course/view.php?id=101"
+    }
+  ],
+  "institution_domain": "universidad.cl"
+}

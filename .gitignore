@@ -1,0 +1,19 @@
+# Secretos y datos personales: nunca al repositorio
+.env
+.env.*
+!.env.example
+config/config.json
+.agents/hooks.json
+memoria/
+universidad/
+documentacion/
+*.pem
+*.key
+
+# Ejecución
+*.log
+*.lock
+__pycache__/
+.DS_Store
+*.bak*
+GUIA_E_INDICE_MAESTRO.md

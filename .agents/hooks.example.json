@@ -1,0 +1,16 @@
+{
+  "telegram-safety-gate": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 \"/RUTA/AL/PROYECTO/scripts/agent_safety_gate.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
